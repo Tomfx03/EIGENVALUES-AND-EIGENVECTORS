@@ -16,7 +16,7 @@ End the Program
 ## Program:
 ```
 import numpy as np
-a=np.array([[-2,2,-3],[2,1,-6],[-1,-2,0]])
+a=np.array([[2,-3,0],[2,-5,0],[0,0,3]])
 values,vectors=np.linalg.eig(a)
 print("Eigen values are {} and Eigen Vectors are {}".format(values,vectors))
 ```
